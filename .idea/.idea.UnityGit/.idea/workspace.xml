@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="007f1590-e2bb-494b-b5a1-3f82832f406d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityGit/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityGit/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityGit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityGit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/UnityGitWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/UnityGitWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,32 +14,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LogElement.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/LogElement.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding>
-                <marker date="1531967729832" expanded="true" signature="22:211" ph="{...}" />
-                <marker date="1531967729832" expanded="true" signature="32:79" ph="..." />
-                <marker date="1531967729832" expanded="true" signature="105:209" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UnityGitWindow.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/UnityGitWindow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="119" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="825">
+              <caret line="210" column="68" selection-start-line="210" selection-start-column="68" selection-end-line="210" selection-end-column="68" />
               <folding>
-                <marker date="1531976800688" expanded="true" signature="21:4467" ph="{...}" />
-                <marker date="1531976800688" expanded="false" signature="31:200" ph="..." />
-                <marker date="1531976800688" expanded="true" signature="245:4465" ph="{...}" />
-                <marker date="1531976800688" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
-                <marker date="1531976800688" expanded="true" signature="3581:4462" ph="{...}" />
-                <marker date="1531976800688" expanded="true" signature="3969:4183" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+                <marker date="1532061365420" expanded="true" signature="21:7423" ph="{...}" />
+                <marker date="1532061365420" expanded="false" signature="31:200" ph="..." />
+                <marker date="1532061365420" expanded="true" signature="245:7421" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
+                <marker date="1532061365420" expanded="true" signature="471:558" ph="/// The current position of the scroll bar in the GUI. ... " />
+                <marker date="1532061365420" expanded="true" signature="644:722" ph="/// The currently selected tab in the window. ... " />
+                <marker date="1532061365420" expanded="true" signature="886:1051" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="1074:1288" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="1160:1265" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="1311:1358" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="1390:2977" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="1692:2512" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="1767:2498" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="2529:2878" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="3011:4195" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="3274:3836" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="3331:3831" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="3844:4120" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="4205:4462" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+                <marker date="1532061365420" expanded="true" signature="4513:4899" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="4613:4729" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="4746:4862" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="4909:5212" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+                <marker date="1532061365420" expanded="true" signature="5280:5586" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="5621:6558" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="6009:6223" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+                <marker date="1532061365420" expanded="true" signature="6592:7418" ph="{...}" />
+                <marker date="1532061365420" expanded="true" signature="6916:7130" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
               </folding>
             </state>
           </provider>
@@ -73,7 +77,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/644A5FD6-224D-4339-A238-C803BBE60431/b9/7fca3c4e/TreeView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/644A5FD6-224D-4339-A238-C803BBE60431/0e/b9348ec2/TreeViewItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/UnityGitWindow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/LogElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/644A5FD6-224D-4339-A238-C803BBE60431/d8/365fca40/TreeViewUtility.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BF8183A4-5D58-47D8-85EE-DFFD83533A7B/9c/775cc9a5/IList`1.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/644A5FD6-224D-4339-A238-C803BBE60431/a5/dce3bbc8/MultiColumnHeaderState.cs" root0="SKIP_INSPECTION" />
@@ -98,6 +101,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-227" />
     <option name="y" value="125" />
@@ -109,11 +115,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -163,9 +169,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="13808">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="13808" />
+      <option name="pid" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -185,11 +191,12 @@
       <workItem from="1531975509911" duration="40000" />
       <workItem from="1531976758532" duration="1000" />
       <workItem from="1531976806392" duration="8000" />
+      <workItem from="1532054981074" duration="2797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22048000" />
+    <option name="totallyTimeSpent" value="24845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -209,21 +216,21 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20230524" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20389508" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23426294" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23426294" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -234,30 +241,31 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="10" />
       <window_info anchor="bottom" id="Unity" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.08585056" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Unit Tests" order="4" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="Errors In Solution" order="0" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="right" id="Database" order="1" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" isUnityUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -266,13 +274,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/UnityGitWindow.cs</url>
-          <line>141</line>
+          <line>204</line>
           <properties documentPath="$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/UnityGitWindow.cs" initialLine="90">
             <startOffsets>
-              <startOffset value="4187" />
+              <startOffset value="6227" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="4255" />
+              <endOffset value="6295" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
@@ -286,11 +294,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/UnityGitWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
           <folding>
-            <marker date="1531967729832" expanded="true" signature="22:211" ph="{...}" />
-            <marker date="1531967729832" expanded="true" signature="32:79" ph="..." />
-            <marker date="1531967729832" expanded="true" signature="105:209" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="21:7423" ph="{...}" />
+            <marker date="1532061365420" expanded="false" signature="31:200" ph="..." />
+            <marker date="1532061365420" expanded="true" signature="245:7421" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="471:558" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532061365420" expanded="true" signature="644:722" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="886:1051" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1074:1288" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1160:1265" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1311:1358" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1390:2977" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1692:2512" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1767:2498" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="2529:2878" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3011:4195" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3274:3836" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3331:3831" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3844:4120" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4205:4462" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532061365420" expanded="true" signature="4513:4899" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4613:4729" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4746:4862" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4909:5212" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532061365420" expanded="true" signature="5280:5586" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="5621:6558" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6009:6223" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="6592:7418" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6916:7130" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/LogElement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -299,12 +346,34 @@
         <state relative-caret-position="2010">
           <caret line="140" selection-start-line="140" selection-end-line="140" />
           <folding>
-            <marker date="1531976800688" expanded="true" signature="21:4467" ph="{...}" />
-            <marker date="1531976800688" expanded="false" signature="31:200" ph="..." />
-            <marker date="1531976800688" expanded="true" signature="245:4465" ph="{...}" />
-            <marker date="1531976800688" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
-            <marker date="1531976800688" expanded="true" signature="3581:4462" ph="{...}" />
-            <marker date="1531976800688" expanded="true" signature="3969:4183" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="21:7423" ph="{...}" />
+            <marker date="1532061365420" expanded="false" signature="31:200" ph="..." />
+            <marker date="1532061365420" expanded="true" signature="245:7421" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="471:558" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532061365420" expanded="true" signature="644:722" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="886:1051" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1074:1288" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1160:1265" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1311:1358" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1390:2977" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1692:2512" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1767:2498" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="2529:2878" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3011:4195" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3274:3836" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3331:3831" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3844:4120" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4205:4462" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532061365420" expanded="true" signature="4513:4899" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4613:4729" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4746:4862" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4909:5212" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532061365420" expanded="true" signature="5280:5586" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="5621:6558" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6009:6223" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="6592:7418" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6916:7130" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
         </state>
       </provider>
@@ -313,11 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <marker date="1531967729832" expanded="true" signature="22:211" ph="{...}" />
-            <marker date="1531967729832" expanded="true" signature="32:79" ph="..." />
-            <marker date="1531967729832" expanded="true" signature="105:209" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -326,12 +390,34 @@
         <state relative-caret-position="1140">
           <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
           <folding>
-            <marker date="1531976800688" expanded="true" signature="21:4467" ph="{...}" />
-            <marker date="1531976800688" expanded="false" signature="31:200" ph="..." />
-            <marker date="1531976800688" expanded="true" signature="245:4465" ph="{...}" />
-            <marker date="1531976800688" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
-            <marker date="1531976800688" expanded="true" signature="3581:4462" ph="{...}" />
-            <marker date="1531976800688" expanded="true" signature="3969:4183" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="21:7423" ph="{...}" />
+            <marker date="1532061365420" expanded="false" signature="31:200" ph="..." />
+            <marker date="1532061365420" expanded="true" signature="245:7421" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="471:558" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532061365420" expanded="true" signature="644:722" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="886:1051" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1074:1288" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1160:1265" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1311:1358" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1390:2977" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1692:2512" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1767:2498" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="2529:2878" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3011:4195" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3274:3836" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3331:3831" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3844:4120" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4205:4462" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532061365420" expanded="true" signature="4513:4899" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4613:4729" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4746:4862" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4909:5212" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532061365420" expanded="true" signature="5280:5586" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="5621:6558" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6009:6223" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="6592:7418" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6916:7130" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
         </state>
       </provider>
@@ -340,11 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <marker date="1531967729832" expanded="true" signature="22:211" ph="{...}" />
-            <marker date="1531967729832" expanded="true" signature="32:79" ph="..." />
-            <marker date="1531967729832" expanded="true" signature="105:209" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -353,12 +434,34 @@
         <state relative-caret-position="1365">
           <caret line="91" column="12" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
           <folding>
-            <marker date="1531976800688" expanded="true" signature="21:4467" ph="{...}" />
-            <marker date="1531976800688" expanded="false" signature="31:200" ph="..." />
-            <marker date="1531976800688" expanded="true" signature="245:4465" ph="{...}" />
-            <marker date="1531976800688" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
-            <marker date="1531976800688" expanded="true" signature="3581:4462" ph="{...}" />
-            <marker date="1531976800688" expanded="true" signature="3969:4183" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="21:7423" ph="{...}" />
+            <marker date="1532061365420" expanded="false" signature="31:200" ph="..." />
+            <marker date="1532061365420" expanded="true" signature="245:7421" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="471:558" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532061365420" expanded="true" signature="644:722" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="886:1051" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1074:1288" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1160:1265" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1311:1358" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1390:2977" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1692:2512" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1767:2498" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="2529:2878" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3011:4195" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3274:3836" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3331:3831" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3844:4120" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4205:4462" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532061365420" expanded="true" signature="4513:4899" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4613:4729" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4746:4862" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4909:5212" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532061365420" expanded="true" signature="5280:5586" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="5621:6558" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6009:6223" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="6592:7418" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6916:7130" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
         </state>
       </provider>
@@ -367,11 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <marker date="1531967729832" expanded="true" signature="22:211" ph="{...}" />
-            <marker date="1531967729832" expanded="true" signature="32:79" ph="..." />
-            <marker date="1531967729832" expanded="true" signature="105:209" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -380,12 +478,34 @@
         <state relative-caret-position="360">
           <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
-            <marker date="1531976800688" expanded="true" signature="21:4467" ph="{...}" />
-            <marker date="1531976800688" expanded="false" signature="31:200" ph="..." />
-            <marker date="1531976800688" expanded="true" signature="245:4465" ph="{...}" />
-            <marker date="1531976800688" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
-            <marker date="1531976800688" expanded="true" signature="3581:4462" ph="{...}" />
-            <marker date="1531976800688" expanded="true" signature="3969:4183" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="21:7423" ph="{...}" />
+            <marker date="1532061365420" expanded="false" signature="31:200" ph="..." />
+            <marker date="1532061365420" expanded="true" signature="245:7421" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="471:558" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532061365420" expanded="true" signature="644:722" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="886:1051" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1074:1288" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1160:1265" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1311:1358" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1390:2977" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1692:2512" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1767:2498" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="2529:2878" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3011:4195" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3274:3836" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3331:3831" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3844:4120" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4205:4462" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532061365420" expanded="true" signature="4513:4899" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4613:4729" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4746:4862" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4909:5212" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532061365420" expanded="true" signature="5280:5586" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="5621:6558" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6009:6223" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="6592:7418" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6916:7130" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
         </state>
       </provider>
@@ -395,11 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <marker date="1531967729832" expanded="true" signature="22:211" ph="{...}" />
-            <marker date="1531967729832" expanded="true" signature="32:79" ph="..." />
-            <marker date="1531967729832" expanded="true" signature="105:209" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -415,12 +530,34 @@
         <state relative-caret-position="1170">
           <caret line="83" selection-start-line="83" selection-end-line="83" />
           <folding>
-            <marker date="1531976800688" expanded="true" signature="21:4467" ph="{...}" />
-            <marker date="1531976800688" expanded="false" signature="31:200" ph="..." />
-            <marker date="1531976800688" expanded="true" signature="245:4465" ph="{...}" />
-            <marker date="1531976800688" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
-            <marker date="1531976800688" expanded="true" signature="3581:4462" ph="{...}" />
-            <marker date="1531976800688" expanded="true" signature="3969:4183" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="21:7423" ph="{...}" />
+            <marker date="1532061365420" expanded="false" signature="31:200" ph="..." />
+            <marker date="1532061365420" expanded="true" signature="245:7421" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="471:558" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532061365420" expanded="true" signature="644:722" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="886:1051" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1074:1288" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1160:1265" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1311:1358" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1390:2977" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1692:2512" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1767:2498" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="2529:2878" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3011:4195" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3274:3836" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3331:3831" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3844:4120" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4205:4462" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532061365420" expanded="true" signature="4513:4899" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4613:4729" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4746:4862" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4909:5212" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532061365420" expanded="true" signature="5280:5586" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="5621:6558" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6009:6223" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="6592:7418" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6916:7130" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
         </state>
       </provider>
@@ -449,12 +586,34 @@
         <state relative-caret-position="1245">
           <caret line="83" selection-start-line="83" selection-end-line="83" />
           <folding>
-            <marker date="1531976800688" expanded="true" signature="21:4467" ph="{...}" />
-            <marker date="1531976800688" expanded="false" signature="31:200" ph="..." />
-            <marker date="1531976800688" expanded="true" signature="245:4465" ph="{...}" />
-            <marker date="1531976800688" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
-            <marker date="1531976800688" expanded="true" signature="3581:4462" ph="{...}" />
-            <marker date="1531976800688" expanded="true" signature="3969:4183" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="21:7423" ph="{...}" />
+            <marker date="1532061365420" expanded="false" signature="31:200" ph="..." />
+            <marker date="1532061365420" expanded="true" signature="245:7421" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="471:558" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532061365420" expanded="true" signature="644:722" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="886:1051" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1074:1288" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1160:1265" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1311:1358" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1390:2977" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1692:2512" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1767:2498" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="2529:2878" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3011:4195" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3274:3836" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3331:3831" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3844:4120" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4205:4462" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532061365420" expanded="true" signature="4513:4899" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4613:4729" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4746:4862" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4909:5212" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532061365420" expanded="true" signature="5280:5586" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="5621:6558" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6009:6223" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="6592:7418" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6916:7130" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
         </state>
       </provider>
@@ -474,11 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <marker date="1531967729832" expanded="true" signature="22:211" ph="{...}" />
-            <marker date="1531967729832" expanded="true" signature="32:79" ph="..." />
-            <marker date="1531967729832" expanded="true" signature="105:209" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -563,25 +717,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <marker date="1531967729832" expanded="true" signature="22:211" ph="{...}" />
-            <marker date="1531967729832" expanded="true" signature="32:79" ph="..." />
-            <marker date="1531967729832" expanded="true" signature="105:209" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/UnityGitWindow.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="825">
+          <caret line="210" column="68" selection-start-line="210" selection-start-column="68" selection-end-line="210" selection-end-column="68" />
           <folding>
-            <marker date="1531976800688" expanded="true" signature="21:4467" ph="{...}" />
-            <marker date="1531976800688" expanded="false" signature="31:200" ph="..." />
-            <marker date="1531976800688" expanded="true" signature="245:4465" ph="{...}" />
-            <marker date="1531976800688" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
-            <marker date="1531976800688" expanded="true" signature="3581:4462" ph="{...}" />
-            <marker date="1531976800688" expanded="true" signature="3969:4183" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="21:7423" ph="{...}" />
+            <marker date="1532061365420" expanded="false" signature="31:200" ph="..." />
+            <marker date="1532061365420" expanded="true" signature="245:7421" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="251:325" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="471:558" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532061365420" expanded="true" signature="644:722" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532061365420" expanded="true" signature="886:1051" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1074:1288" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1160:1265" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1311:1358" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1390:2977" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1692:2512" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="1767:2498" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="2529:2878" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3011:4195" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3274:3836" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3331:3831" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="3844:4120" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4205:4462" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532061365420" expanded="true" signature="4513:4899" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4613:4729" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4746:4862" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="4909:5212" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532061365420" expanded="true" signature="5280:5586" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="5621:6558" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6009:6223" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532061365420" expanded="true" signature="6592:7418" ph="{...}" />
+            <marker date="1532061365420" expanded="true" signature="6916:7130" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
         </state>
       </provider>

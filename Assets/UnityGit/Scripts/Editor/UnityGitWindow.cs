@@ -20,6 +20,8 @@ namespace UnityGit
 
 		public List<string> parsedGitLog;
 		
+		public List<string> parsedStatusLog;
+		
 		/// <summary>
 		/// The current position of the scroll bar in the GUI.
 		/// </summary>
@@ -58,11 +60,13 @@ namespace UnityGit
 					DisplayGitStatus();
 					break;
 			}
+			this.Repaint();
 		}
 
 		public void Awake()
 		{
 			ParseGitLog();
+			ParseGitStatus();
 		}
 
 
@@ -87,7 +91,7 @@ namespace UnityGit
                     {
                         EditorStyles.label.fontStyle = FontStyle.Bold;
                         EditorStyles.label.fontSize = 14;
-                        EditorGUILayout.LabelField(string.Format("{0}", parsedGitLog[i]));
+                        EditorGUILayout.LabelField(string.Format("{0}", parsedGitLog[i]),GUILayout.Height(20));
                     }
                     EditorGUILayout.EndHorizontal();
                     EditorGUILayout.EndVertical();
@@ -97,7 +101,7 @@ namespace UnityGit
             {
                 EditorStyles.label.fontStyle = FontStyle.Bold;
                 EditorStyles.label.fontSize = 14;
-                EditorGUILayout.LabelField("There are no packages installed!", GUILayout.Height(20));
+	            EditorGUILayout.LabelField("There is not a repository!", GUILayout.Height(20));
                 EditorStyles.label.fontSize = 10;
                 EditorStyles.label.fontStyle = FontStyle.Normal;
             }
@@ -108,7 +112,42 @@ namespace UnityGit
 
 		public void DisplayGitStatus()
 		{
-			
+			// display all of the installed packages
+			scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
+			EditorGUILayout.BeginVertical();
+
+			GUIStyle style = CreateColoredBackground();
+
+			if (parsedStatusLog != null && parsedStatusLog.Count > 0)
+			{
+				for (int i = 0; i < parsedStatusLog.Count; i++)
+				{
+					// alternate the background color for each package
+					if (i % 2 == 0)
+						EditorGUILayout.BeginVertical();
+					else
+						EditorGUILayout.BeginVertical(style);
+					EditorGUILayout.BeginHorizontal();
+					{
+						EditorStyles.label.fontStyle = FontStyle.Bold;
+						EditorStyles.label.fontSize = 14;
+						EditorGUILayout.LabelField(string.Format("{0}", parsedStatusLog[i]),GUILayout.Height(20));
+					}
+					EditorGUILayout.EndHorizontal();
+					EditorGUILayout.EndVertical();
+				}
+			}
+			else
+			{
+				EditorStyles.label.fontStyle = FontStyle.Bold;
+				EditorStyles.label.fontSize = 14;
+				EditorGUILayout.LabelField("There are no files modified!", GUILayout.Height(20));
+				EditorStyles.label.fontSize = 10;
+				EditorStyles.label.fontStyle = FontStyle.Normal;
+			}
+
+			EditorGUILayout.EndVertical();
+			EditorGUILayout.EndScrollView();
 		}
 
         /// <summary>
@@ -169,8 +208,30 @@ namespace UnityGit
 	
 			string gitLogOutput = gitlog.StandardOutput.ReadToEnd();
 			gitlog.WaitForExit();
-			
+			gitLogOutput = gitLogOutput.Replace("--date=short", "");
 			parsedGitLog = gitLogOutput.Split(System.Environment.NewLine.ToCharArray()).ToList();
+		}
+		
+		public void ParseGitStatus()
+		{
+			Process gitlog = new Process();
+			gitlog.StartInfo.FileName = "git";
+			gitlog.StartInfo.Arguments = "status --short";
+			gitlog.StartInfo.UseShellExecute = false;
+			gitlog.StartInfo.RedirectStandardOutput = true;
+			gitlog.StartInfo.RedirectStandardError = true;
+			gitlog.StartInfo.CreateNoWindow = true;
+			
+			// http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly
+			// Default = 65533, ASCII = ?, Unicode = nothing works at all, UTF-8 = 65533, UTF-7 = 242 = WORKS!, UTF-32 = nothing works at all
+			gitlog.StartInfo.StandardOutputEncoding = Encoding.GetEncoding(850);
+			
+			gitlog.Start();
+	
+			string gitStatusOutput = gitlog.StandardOutput.ReadToEnd();
+			gitlog.WaitForExit();
+			
+			parsedStatusLog = gitStatusOutput.Split(System.Environment.NewLine.ToCharArray()).ToList();
 		}
 	}
 }
