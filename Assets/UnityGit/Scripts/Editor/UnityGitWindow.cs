@@ -183,8 +183,11 @@ namespace UnityGit
 			EditorGUILayout.BeginVertical();
 			EditorGUILayout.BeginHorizontal();
 			{
-				addAll = GUILayout.Button("Add All");
-				push = GUILayout.Button("Push");
+				if (GUILayout.Button("Add All"))
+				{
+					CallGitProcess("git", "add -A");
+					ParseGitStatus();
+				}
 			}
 			EditorGUILayout.EndHorizontal();
 			EditorGUILayout.EndVertical();
@@ -200,16 +203,7 @@ namespace UnityGit
 			}
 			EditorGUILayout.EndHorizontal();
 		}
-
-		public void RunGitCommands()
-		{
-			if (addAll)
-			{
-				CallGitProcess("git", "add -A");
-				ParseGitStatus();
-				addAll = false;
-			}
-		}
+		
         /// <summary>
         /// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro (dark) skin.
         /// </summary>
@@ -302,24 +296,26 @@ namespace UnityGit
 			}
 		}
 
+		/// <summary>
+		/// Display the commit tab
+		/// </summary>
 		public void DisplayCommit()
 		{
 			EditorGUILayout.BeginVertical();
 			EditorGUILayout.BeginHorizontal();
-			commitTitle = EditorGUILayout.TextField("Title: ", commitTitle);
-			EditorGUILayout.EndHorizontal();
-			EditorGUILayout.BeginHorizontal();
 			commitMessage = EditorGUILayout.TextField("Message: ", commitMessage);
 			EditorGUILayout.EndHorizontal();
-			EditorGUILayout.BeginHorizontal();
-			commit = GUILayout.Button("Commit");
-			EditorGUILayout.EndHorizontal();
+			if (GUILayout.Button("Commit"))
+			{
+				CallGitProcess("git", "commit -m" + "\"" + commitMessage + "\"");
+			}
+			if (GUILayout.Button("Push"))
+			{
+				CallGitProcess("git", "push");
+			}
 			EditorGUILayout.EndVertical();
 
-			if (commit)
-			{
-				CallGitProcess("git", "commit -m" + "\"" + commitTitle + "\"" + "-m" + "\"" + commitMessage + "\"");
-			}
+			
 		}
 
 		/// <summary>
