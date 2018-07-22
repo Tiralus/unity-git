@@ -8,7 +8,6 @@
         <e p="UnityGit" t="Include">
           <e p="Scripts" t="Include">
             <e p="Editor" t="Include">
-              <e p="GitCommitWindow.cs" t="Include" />
               <e p="LogItem.cs" t="Include" />
               <e p="StatusItem.cs" t="Include" />
               <e p="UnityGitWindow.cs" t="Include" />

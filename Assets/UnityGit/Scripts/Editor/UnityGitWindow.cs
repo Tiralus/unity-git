@@ -111,11 +111,7 @@ namespace UnityGit
             }
             else
             {
-                EditorStyles.label.fontStyle = FontStyle.Bold;
-                EditorStyles.label.fontSize = 14;
-	            EditorGUILayout.LabelField("There is not a repository!", GUILayout.Height(20));
-                EditorStyles.label.fontSize = 10;
-                EditorStyles.label.fontStyle = FontStyle.Normal;
+	            DisplayLabel("There is not a repository!");
             }
 
             EditorGUILayout.EndVertical();
@@ -146,9 +142,7 @@ namespace UnityGit
 
 					EditorGUILayout.BeginHorizontal();
 					{
-						EditorStyles.label.fontStyle = FontStyle.Bold;
-						EditorStyles.label.fontSize = 14;
-						EditorGUILayout.LabelField(string.Format("{0}", parsedStatusLog[i].status), GUILayout.Height(20));
+						DisplayLabel(parsedStatusLog[i].status);
 					}
 					EditorGUILayout.EndHorizontal();
 
@@ -157,11 +151,7 @@ namespace UnityGit
 			}
 			else
 			{
-				EditorStyles.label.fontStyle = FontStyle.Bold;
-				EditorStyles.label.fontSize = 14;
-				EditorGUILayout.LabelField("There are no files modified!", GUILayout.Height(20));
-				EditorStyles.label.fontSize = 10;
-				EditorStyles.label.fontStyle = FontStyle.Normal;
+				DisplayLabel("There are no files modified!");
 			}
 
 			EditorGUILayout.EndVertical();
@@ -193,7 +183,9 @@ namespace UnityGit
 		{
 			EditorGUILayout.BeginVertical();
 			EditorGUILayout.BeginHorizontal();
-			commitMessage = EditorGUILayout.TextField("Message: ", commitMessage);
+			EditorStyles.label.fontStyle = FontStyle.Bold;
+			EditorStyles.label.fontSize = 14;
+			commitMessage = EditorGUILayout.TextField("Message: ", commitMessage, GUILayout.Height(20));
 			EditorGUILayout.EndHorizontal();
 			if (GUILayout.Button("Commit"))
 			{
@@ -206,6 +198,9 @@ namespace UnityGit
 			EditorGUILayout.EndVertical();
 		}
 		
+		/// <summary>
+		/// Generic method to display a label
+		/// </summary>
 		public void DisplayLabel(string label)
 		{
 			EditorGUILayout.BeginHorizontal();
