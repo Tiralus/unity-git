@@ -17,20 +17,11 @@ namespace UnityGit
 		/// </summary>
 		private readonly string[] tabTitles = { "Log", "Status", "Commit" };
 
-		public List<LogItem> parsedGitLog = new List<LogItem>();
+		private List<LogItem> parsedGitLog = new List<LogItem>();
 		
-		public List<StatusItem> parsedStatusLog = new List<StatusItem>();
+		private List<StatusItem> parsedStatusLog = new List<StatusItem>();
 
-		public string commitTitle = string.Empty;
-
-		public string commitMessage = string.Empty;
-
-		private bool addAll = false;
-
-		private bool showCommitWindow = false;
-		private bool commit = false;
-
-		private bool push = false;
+		private string commitMessage = string.Empty;
 		
 		/// <summary>
 		/// The current position of the scroll bar in the GUI.
@@ -47,7 +38,7 @@ namespace UnityGit
 		private MultiColumnHeaderState multiColumnHeaderState;
 
 		/// <summary>
-		/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro (dark) skin.
+		/// Creates the window
 		/// </summary>
 		/// <returns>The GUI style with the appropriate background color set.</returns>
 		[MenuItem("Window/Unity Git")]
@@ -82,7 +73,7 @@ namespace UnityGit
 		}
 
 		/// <summary>
-		/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro (dark) skin.
+		/// Call the parse to initialize everything.
 		/// </summary>
 		public void Awake()
 		{
@@ -90,8 +81,9 @@ namespace UnityGit
 			ParseGitStatus();
 		}
 
+#region Display Methods
 		/// <summary>
-		/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro (dark) skin.
+		/// Display the git log
 		/// </summary>
 		public void DisplayGitLog()
 		{
@@ -131,12 +123,10 @@ namespace UnityGit
         }
 		
 		/// <summary>
-		/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro (dark) skin.
+		/// Dispaly the status tab
 		/// </summary>
 		public void DisplayGitStatus()
 		{
-			RunGitCommands();
-			
 			DisplayStatusHeader();
 			// display all of the installed packages
 			scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
@@ -177,7 +167,10 @@ namespace UnityGit
 			EditorGUILayout.EndVertical();
 			EditorGUILayout.EndScrollView();
 		}
-
+		
+		/// <summary>
+		/// Display the head for the status tab
+		/// </summary>
 		public void DisplayStatusHeader()
 		{
 			EditorGUILayout.BeginVertical();
@@ -193,6 +186,26 @@ namespace UnityGit
 			EditorGUILayout.EndVertical();
 		}
 		
+		/// <summary>
+		/// Display the commit tab
+		/// </summary>
+		public void DisplayCommit()
+		{
+			EditorGUILayout.BeginVertical();
+			EditorGUILayout.BeginHorizontal();
+			commitMessage = EditorGUILayout.TextField("Message: ", commitMessage);
+			EditorGUILayout.EndHorizontal();
+			if (GUILayout.Button("Commit"))
+			{
+				CallGitProcess("git", "commit -m" + "\"" + commitMessage + "\"");
+			}
+			if (GUILayout.Button("Push"))
+			{
+				CallGitProcess("git", "push");
+			}
+			EditorGUILayout.EndVertical();
+		}
+		
 		public void DisplayLabel(string label)
 		{
 			EditorGUILayout.BeginHorizontal();
@@ -203,6 +216,7 @@ namespace UnityGit
 			}
 			EditorGUILayout.EndHorizontal();
 		}
+#endregion
 		
         /// <summary>
         /// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro (dark) skin.
@@ -244,6 +258,7 @@ namespace UnityGit
             return result;
         }
 
+#region Parsing methods
 		/// <summary>
 		/// Call git and get the output from git log, split it to be easier to display.
 		/// </summary>
@@ -295,29 +310,8 @@ namespace UnityGit
 				parsedStatusLog.Add(item);
 			}
 		}
-
-		/// <summary>
-		/// Display the commit tab
-		/// </summary>
-		public void DisplayCommit()
-		{
-			EditorGUILayout.BeginVertical();
-			EditorGUILayout.BeginHorizontal();
-			commitMessage = EditorGUILayout.TextField("Message: ", commitMessage);
-			EditorGUILayout.EndHorizontal();
-			if (GUILayout.Button("Commit"))
-			{
-				CallGitProcess("git", "commit -m" + "\"" + commitMessage + "\"");
-			}
-			if (GUILayout.Button("Push"))
-			{
-				CallGitProcess("git", "push");
-			}
-			EditorGUILayout.EndVertical();
-
-			
-		}
-
+#endregion
+		
 		/// <summary>
 		/// Generic method to call git.
 		/// </summary>
