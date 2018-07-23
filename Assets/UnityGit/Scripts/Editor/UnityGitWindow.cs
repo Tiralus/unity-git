@@ -62,7 +62,7 @@ namespace UnityGit
 			{
 				case 0:
 					DisplayGitLog();
-					break;
+					 break;
 				case 1:
 					DisplayGitStatus();
 					break;
