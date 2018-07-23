@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c0ad2dc-4fbe-4f6c-9965-edd9fc75d5f6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.unity-git/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.unity-git/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.unity-git/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.unity-git/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/GitCommitWindow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/GitCommitWindow.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/UnityGitWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/UnityGitWindow.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,60 +16,60 @@
       <file leaf-file-name="UnityGitWindow.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/UnityGitWindow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-787">
-              <caret line="201" column="45" selection-start-line="201" selection-start-column="45" selection-end-line="201" selection-end-column="45" />
+            <state relative-caret-position="2048">
+              <caret line="170" column="24" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
               <folding>
-                <marker date="1532296235421" expanded="true" signature="20:9140" ph="{...}" />
-                <marker date="1532296235421" expanded="false" signature="30:199" ph="..." />
-                <marker date="1532296235421" expanded="true" signature="244:9138" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
-                <marker date="1532296235421" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
-                <marker date="1532296235421" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
-                <marker date="1532296235421" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
-                <marker date="1532296235421" expanded="true" signature="1134:1299" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
-                <marker date="1532296235421" expanded="true" signature="1380:1621" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="1466:1617" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
-                <marker date="1532296235421" expanded="true" signature="1724:1771" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="1773:5231" ph="Display Methods" />
-                <marker date="1532296235421" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
-                <marker date="1532296235421" expanded="true" signature="1885:2879" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="2134:2678" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="2209:2664" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="2546:2595" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="2695:2780" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
-                <marker date="1532296235421" expanded="true" signature="2977:3830" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="3266:3687" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="3323:3682" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="3695:3755" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
-                <marker date="1532296235421" expanded="true" signature="3944:4216" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="4064:4137" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="4222:4281" ph="/// Display the commit tab ... " />
-                <marker date="1532296235421" expanded="true" signature="4311:4839" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="4643:4723" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="4756:4801" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="4845:4915" ph="/// Generic method to display a label ... " />
-                <marker date="1532296235421" expanded="true" signature="4956:5220" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="5243:5500" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
-                <marker date="1532296235421" expanded="true" signature="5551:5937" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="5651:5767" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="5784:5900" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="5947:6250" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
-                <marker date="1532296235421" expanded="true" signature="6318:6624" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="6626:8079" ph="Parsing methods" />
-                <marker date="1532296235421" expanded="true" signature="6652:6764" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
-                <marker date="1532296235421" expanded="true" signature="6798:7406" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="7168:7402" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="7243:7291" ph="/* Log format: ... */" />
-                <marker date="1532296235421" expanded="true" signature="7413:7493" ph="/// Call git and get the output from git status ... " />
-                <marker date="1532296235421" expanded="true" signature="7524:8068" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="7924:8064" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="8085:8272" ph="/// Generic method to call git. ... " />
-                <marker date="1532296235421" expanded="true" signature="8338:9135" ph="{...}" />
-                <marker date="1532296235421" expanded="true" signature="8686:8900" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+                <marker date="1532321359608" expanded="true" signature="20:9122" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="30:199" ph="..." />
+                <marker date="1532321359608" expanded="true" signature="244:9120" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
+                <marker date="1532321359608" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
+                <marker date="1532321359608" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
+                <marker date="1532321359608" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
+                <marker date="1532321359608" expanded="true" signature="1134:1299" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
+                <marker date="1532321359608" expanded="true" signature="1380:1621" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="1466:1617" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
+                <marker date="1532321359608" expanded="true" signature="1724:1771" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="1773:5222" ph="Display Methods" />
+                <marker date="1532321359608" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
+                <marker date="1532321359608" expanded="true" signature="1885:2879" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="2134:2678" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="2209:2664" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="2546:2595" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="2695:2780" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
+                <marker date="1532321359608" expanded="true" signature="2977:3830" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="3266:3687" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="3323:3682" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="3695:3755" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
+                <marker date="1532321359608" expanded="true" signature="3944:4213" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="4064:4134" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="4219:4278" ph="/// Display the commit tab ... " />
+                <marker date="1532321359608" expanded="true" signature="4308:4830" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="4640:4717" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="4750:4792" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="4836:4906" ph="/// Generic method to display a label ... " />
+                <marker date="1532321359608" expanded="true" signature="4947:5211" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="5234:5491" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+                <marker date="1532321359608" expanded="true" signature="5542:5928" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="5642:5758" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="5775:5891" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="5938:6241" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+                <marker date="1532321359608" expanded="true" signature="6309:6615" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="6617:8064" ph="Parsing methods" />
+                <marker date="1532321359608" expanded="true" signature="6643:6755" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
+                <marker date="1532321359608" expanded="true" signature="6789:7394" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="7156:7390" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="7231:7279" ph="/* Log format: ... */" />
+                <marker date="1532321359608" expanded="true" signature="7401:7481" ph="/// Call git and get the output from git status ... " />
+                <marker date="1532321359608" expanded="true" signature="7512:8053" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="7909:8049" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="8070:8257" ph="/// Generic method to call git. ... " />
+                <marker date="1532321359608" expanded="true" signature="8320:9117" ph="{...}" />
+                <marker date="1532321359608" expanded="true" signature="8668:8882" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
               </folding>
             </state>
           </provider>
@@ -204,12 +200,12 @@
       <workItem from="1532222912671" duration="7000" />
       <workItem from="1532222938309" duration="1128000" />
       <workItem from="1532224087657" duration="5289000" />
-      <workItem from="1532234361857" duration="3927000" />
+      <workItem from="1532234361857" duration="4582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15981000" />
+    <option name="totallyTimeSpent" value="16636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,57 +264,57 @@
         <state relative-caret-position="3135">
           <caret line="209" column="16" lean-forward="true" selection-start-line="209" selection-start-column="16" selection-end-line="209" selection-end-column="16" />
           <folding>
-            <marker date="1532296235421" expanded="true" signature="20:9140" ph="{...}" />
-            <marker date="1532296235421" expanded="false" signature="30:199" ph="..." />
-            <marker date="1532296235421" expanded="true" signature="244:9138" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
-            <marker date="1532296235421" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
-            <marker date="1532296235421" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
-            <marker date="1532296235421" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
-            <marker date="1532296235421" expanded="true" signature="1134:1299" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
-            <marker date="1532296235421" expanded="true" signature="1380:1621" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1466:1617" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
-            <marker date="1532296235421" expanded="true" signature="1724:1771" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1773:5231" ph="Display Methods" />
-            <marker date="1532296235421" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
-            <marker date="1532296235421" expanded="true" signature="1885:2879" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2134:2678" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2209:2664" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2546:2595" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2695:2780" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
-            <marker date="1532296235421" expanded="true" signature="2977:3830" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3266:3687" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3323:3682" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3695:3755" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
-            <marker date="1532296235421" expanded="true" signature="3944:4216" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4064:4137" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4222:4281" ph="/// Display the commit tab ... " />
-            <marker date="1532296235421" expanded="true" signature="4311:4839" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4643:4723" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4756:4801" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4845:4915" ph="/// Generic method to display a label ... " />
-            <marker date="1532296235421" expanded="true" signature="4956:5220" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5243:5500" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
-            <marker date="1532296235421" expanded="true" signature="5551:5937" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5651:5767" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5784:5900" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5947:6250" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
-            <marker date="1532296235421" expanded="true" signature="6318:6624" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="6626:8079" ph="Parsing methods" />
-            <marker date="1532296235421" expanded="true" signature="6652:6764" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
-            <marker date="1532296235421" expanded="true" signature="6798:7406" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7168:7402" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7243:7291" ph="/* Log format: ... */" />
-            <marker date="1532296235421" expanded="true" signature="7413:7493" ph="/// Call git and get the output from git status ... " />
-            <marker date="1532296235421" expanded="true" signature="7524:8068" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7924:8064" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="8085:8272" ph="/// Generic method to call git. ... " />
-            <marker date="1532296235421" expanded="true" signature="8338:9135" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="8686:8900" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532321359608" expanded="true" signature="20:9122" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="30:199" ph="..." />
+            <marker date="1532321359608" expanded="true" signature="244:9120" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532321359608" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532321359608" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532321359608" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
+            <marker date="1532321359608" expanded="true" signature="1134:1299" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
+            <marker date="1532321359608" expanded="true" signature="1380:1621" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1466:1617" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
+            <marker date="1532321359608" expanded="true" signature="1724:1771" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1773:5222" ph="Display Methods" />
+            <marker date="1532321359608" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
+            <marker date="1532321359608" expanded="true" signature="1885:2879" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2134:2678" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2209:2664" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2546:2595" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2695:2780" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
+            <marker date="1532321359608" expanded="true" signature="2977:3830" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3266:3687" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3323:3682" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3695:3755" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
+            <marker date="1532321359608" expanded="true" signature="3944:4213" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4064:4134" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4219:4278" ph="/// Display the commit tab ... " />
+            <marker date="1532321359608" expanded="true" signature="4308:4830" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4640:4717" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4750:4792" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4836:4906" ph="/// Generic method to display a label ... " />
+            <marker date="1532321359608" expanded="true" signature="4947:5211" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5234:5491" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532321359608" expanded="true" signature="5542:5928" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5642:5758" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5775:5891" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5938:6241" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532321359608" expanded="true" signature="6309:6615" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="6617:8064" ph="Parsing methods" />
+            <marker date="1532321359608" expanded="true" signature="6643:6755" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
+            <marker date="1532321359608" expanded="true" signature="6789:7394" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7156:7390" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7231:7279" ph="/* Log format: ... */" />
+            <marker date="1532321359608" expanded="true" signature="7401:7481" ph="/// Call git and get the output from git status ... " />
+            <marker date="1532321359608" expanded="true" signature="7512:8053" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7909:8049" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="8070:8257" ph="/// Generic method to call git. ... " />
+            <marker date="1532321359608" expanded="true" signature="8320:9117" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="8668:8882" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
         </state>
       </provider>
@@ -357,57 +353,57 @@
         <state relative-caret-position="1770">
           <caret line="124" column="28" selection-start-line="124" selection-start-column="28" selection-end-line="124" selection-end-column="28" />
           <folding>
-            <marker date="1532296235421" expanded="true" signature="20:9140" ph="{...}" />
-            <marker date="1532296235421" expanded="false" signature="30:199" ph="..." />
-            <marker date="1532296235421" expanded="true" signature="244:9138" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
-            <marker date="1532296235421" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
-            <marker date="1532296235421" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
-            <marker date="1532296235421" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
-            <marker date="1532296235421" expanded="true" signature="1134:1299" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
-            <marker date="1532296235421" expanded="true" signature="1380:1621" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1466:1617" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
-            <marker date="1532296235421" expanded="true" signature="1724:1771" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1773:5231" ph="Display Methods" />
-            <marker date="1532296235421" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
-            <marker date="1532296235421" expanded="true" signature="1885:2879" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2134:2678" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2209:2664" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2546:2595" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2695:2780" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
-            <marker date="1532296235421" expanded="true" signature="2977:3830" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3266:3687" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3323:3682" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3695:3755" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
-            <marker date="1532296235421" expanded="true" signature="3944:4216" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4064:4137" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4222:4281" ph="/// Display the commit tab ... " />
-            <marker date="1532296235421" expanded="true" signature="4311:4839" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4643:4723" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4756:4801" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4845:4915" ph="/// Generic method to display a label ... " />
-            <marker date="1532296235421" expanded="true" signature="4956:5220" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5243:5500" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
-            <marker date="1532296235421" expanded="true" signature="5551:5937" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5651:5767" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5784:5900" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5947:6250" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
-            <marker date="1532296235421" expanded="true" signature="6318:6624" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="6626:8079" ph="Parsing methods" />
-            <marker date="1532296235421" expanded="true" signature="6652:6764" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
-            <marker date="1532296235421" expanded="true" signature="6798:7406" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7168:7402" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7243:7291" ph="/* Log format: ... */" />
-            <marker date="1532296235421" expanded="true" signature="7413:7493" ph="/// Call git and get the output from git status ... " />
-            <marker date="1532296235421" expanded="true" signature="7524:8068" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7924:8064" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="8085:8272" ph="/// Generic method to call git. ... " />
-            <marker date="1532296235421" expanded="true" signature="8338:9135" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="8686:8900" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532321359608" expanded="true" signature="20:9122" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="30:199" ph="..." />
+            <marker date="1532321359608" expanded="true" signature="244:9120" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532321359608" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532321359608" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532321359608" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
+            <marker date="1532321359608" expanded="true" signature="1134:1299" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
+            <marker date="1532321359608" expanded="true" signature="1380:1621" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1466:1617" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
+            <marker date="1532321359608" expanded="true" signature="1724:1771" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1773:5222" ph="Display Methods" />
+            <marker date="1532321359608" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
+            <marker date="1532321359608" expanded="true" signature="1885:2879" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2134:2678" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2209:2664" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2546:2595" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2695:2780" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
+            <marker date="1532321359608" expanded="true" signature="2977:3830" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3266:3687" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3323:3682" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3695:3755" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
+            <marker date="1532321359608" expanded="true" signature="3944:4213" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4064:4134" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4219:4278" ph="/// Display the commit tab ... " />
+            <marker date="1532321359608" expanded="true" signature="4308:4830" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4640:4717" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4750:4792" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4836:4906" ph="/// Generic method to display a label ... " />
+            <marker date="1532321359608" expanded="true" signature="4947:5211" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5234:5491" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532321359608" expanded="true" signature="5542:5928" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5642:5758" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5775:5891" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5938:6241" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532321359608" expanded="true" signature="6309:6615" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="6617:8064" ph="Parsing methods" />
+            <marker date="1532321359608" expanded="true" signature="6643:6755" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
+            <marker date="1532321359608" expanded="true" signature="6789:7394" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7156:7390" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7231:7279" ph="/* Log format: ... */" />
+            <marker date="1532321359608" expanded="true" signature="7401:7481" ph="/// Call git and get the output from git status ... " />
+            <marker date="1532321359608" expanded="true" signature="7512:8053" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7909:8049" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="8070:8257" ph="/// Generic method to call git. ... " />
+            <marker date="1532321359608" expanded="true" signature="8320:9117" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="8668:8882" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
         </state>
       </provider>
@@ -446,57 +442,57 @@
         <state relative-caret-position="2115">
           <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
           <folding>
-            <marker date="1532296235421" expanded="true" signature="20:9140" ph="{...}" />
-            <marker date="1532296235421" expanded="false" signature="30:199" ph="..." />
-            <marker date="1532296235421" expanded="true" signature="244:9138" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
-            <marker date="1532296235421" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
-            <marker date="1532296235421" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
-            <marker date="1532296235421" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
-            <marker date="1532296235421" expanded="true" signature="1134:1299" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
-            <marker date="1532296235421" expanded="true" signature="1380:1621" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1466:1617" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
-            <marker date="1532296235421" expanded="true" signature="1724:1771" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1773:5231" ph="Display Methods" />
-            <marker date="1532296235421" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
-            <marker date="1532296235421" expanded="true" signature="1885:2879" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2134:2678" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2209:2664" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2546:2595" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2695:2780" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
-            <marker date="1532296235421" expanded="true" signature="2977:3830" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3266:3687" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3323:3682" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3695:3755" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
-            <marker date="1532296235421" expanded="true" signature="3944:4216" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4064:4137" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4222:4281" ph="/// Display the commit tab ... " />
-            <marker date="1532296235421" expanded="true" signature="4311:4839" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4643:4723" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4756:4801" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4845:4915" ph="/// Generic method to display a label ... " />
-            <marker date="1532296235421" expanded="true" signature="4956:5220" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5243:5500" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
-            <marker date="1532296235421" expanded="true" signature="5551:5937" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5651:5767" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5784:5900" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5947:6250" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
-            <marker date="1532296235421" expanded="true" signature="6318:6624" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="6626:8079" ph="Parsing methods" />
-            <marker date="1532296235421" expanded="true" signature="6652:6764" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
-            <marker date="1532296235421" expanded="true" signature="6798:7406" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7168:7402" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7243:7291" ph="/* Log format: ... */" />
-            <marker date="1532296235421" expanded="true" signature="7413:7493" ph="/// Call git and get the output from git status ... " />
-            <marker date="1532296235421" expanded="true" signature="7524:8068" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7924:8064" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="8085:8272" ph="/// Generic method to call git. ... " />
-            <marker date="1532296235421" expanded="true" signature="8338:9135" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="8686:8900" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532321359608" expanded="true" signature="20:9122" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="30:199" ph="..." />
+            <marker date="1532321359608" expanded="true" signature="244:9120" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532321359608" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532321359608" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532321359608" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
+            <marker date="1532321359608" expanded="true" signature="1134:1299" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
+            <marker date="1532321359608" expanded="true" signature="1380:1621" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1466:1617" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
+            <marker date="1532321359608" expanded="true" signature="1724:1771" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1773:5222" ph="Display Methods" />
+            <marker date="1532321359608" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
+            <marker date="1532321359608" expanded="true" signature="1885:2879" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2134:2678" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2209:2664" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2546:2595" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2695:2780" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
+            <marker date="1532321359608" expanded="true" signature="2977:3830" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3266:3687" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3323:3682" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3695:3755" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
+            <marker date="1532321359608" expanded="true" signature="3944:4213" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4064:4134" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4219:4278" ph="/// Display the commit tab ... " />
+            <marker date="1532321359608" expanded="true" signature="4308:4830" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4640:4717" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4750:4792" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4836:4906" ph="/// Generic method to display a label ... " />
+            <marker date="1532321359608" expanded="true" signature="4947:5211" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5234:5491" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532321359608" expanded="true" signature="5542:5928" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5642:5758" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5775:5891" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5938:6241" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532321359608" expanded="true" signature="6309:6615" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="6617:8064" ph="Parsing methods" />
+            <marker date="1532321359608" expanded="true" signature="6643:6755" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
+            <marker date="1532321359608" expanded="true" signature="6789:7394" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7156:7390" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7231:7279" ph="/* Log format: ... */" />
+            <marker date="1532321359608" expanded="true" signature="7401:7481" ph="/// Call git and get the output from git status ... " />
+            <marker date="1532321359608" expanded="true" signature="7512:8053" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7909:8049" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="8070:8257" ph="/// Generic method to call git. ... " />
+            <marker date="1532321359608" expanded="true" signature="8320:9117" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="8668:8882" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
         </state>
       </provider>
@@ -535,57 +531,57 @@
         <state relative-caret-position="2115">
           <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
           <folding>
-            <marker date="1532296235421" expanded="true" signature="20:9140" ph="{...}" />
-            <marker date="1532296235421" expanded="false" signature="30:199" ph="..." />
-            <marker date="1532296235421" expanded="true" signature="244:9138" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
-            <marker date="1532296235421" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
-            <marker date="1532296235421" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
-            <marker date="1532296235421" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
-            <marker date="1532296235421" expanded="true" signature="1134:1299" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
-            <marker date="1532296235421" expanded="true" signature="1380:1621" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1466:1617" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
-            <marker date="1532296235421" expanded="true" signature="1724:1771" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1773:5231" ph="Display Methods" />
-            <marker date="1532296235421" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
-            <marker date="1532296235421" expanded="true" signature="1885:2879" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2134:2678" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2209:2664" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2546:2595" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2695:2780" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
-            <marker date="1532296235421" expanded="true" signature="2977:3830" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3266:3687" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3323:3682" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3695:3755" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
-            <marker date="1532296235421" expanded="true" signature="3944:4216" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4064:4137" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4222:4281" ph="/// Display the commit tab ... " />
-            <marker date="1532296235421" expanded="true" signature="4311:4839" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4643:4723" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4756:4801" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4845:4915" ph="/// Generic method to display a label ... " />
-            <marker date="1532296235421" expanded="true" signature="4956:5220" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5243:5500" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
-            <marker date="1532296235421" expanded="true" signature="5551:5937" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5651:5767" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5784:5900" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5947:6250" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
-            <marker date="1532296235421" expanded="true" signature="6318:6624" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="6626:8079" ph="Parsing methods" />
-            <marker date="1532296235421" expanded="true" signature="6652:6764" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
-            <marker date="1532296235421" expanded="true" signature="6798:7406" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7168:7402" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7243:7291" ph="/* Log format: ... */" />
-            <marker date="1532296235421" expanded="true" signature="7413:7493" ph="/// Call git and get the output from git status ... " />
-            <marker date="1532296235421" expanded="true" signature="7524:8068" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7924:8064" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="8085:8272" ph="/// Generic method to call git. ... " />
-            <marker date="1532296235421" expanded="true" signature="8338:9135" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="8686:8900" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532321359608" expanded="true" signature="20:9122" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="30:199" ph="..." />
+            <marker date="1532321359608" expanded="true" signature="244:9120" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532321359608" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532321359608" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532321359608" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
+            <marker date="1532321359608" expanded="true" signature="1134:1299" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
+            <marker date="1532321359608" expanded="true" signature="1380:1621" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1466:1617" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
+            <marker date="1532321359608" expanded="true" signature="1724:1771" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1773:5222" ph="Display Methods" />
+            <marker date="1532321359608" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
+            <marker date="1532321359608" expanded="true" signature="1885:2879" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2134:2678" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2209:2664" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2546:2595" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2695:2780" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
+            <marker date="1532321359608" expanded="true" signature="2977:3830" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3266:3687" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3323:3682" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3695:3755" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
+            <marker date="1532321359608" expanded="true" signature="3944:4213" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4064:4134" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4219:4278" ph="/// Display the commit tab ... " />
+            <marker date="1532321359608" expanded="true" signature="4308:4830" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4640:4717" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4750:4792" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4836:4906" ph="/// Generic method to display a label ... " />
+            <marker date="1532321359608" expanded="true" signature="4947:5211" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5234:5491" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532321359608" expanded="true" signature="5542:5928" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5642:5758" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5775:5891" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5938:6241" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532321359608" expanded="true" signature="6309:6615" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="6617:8064" ph="Parsing methods" />
+            <marker date="1532321359608" expanded="true" signature="6643:6755" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
+            <marker date="1532321359608" expanded="true" signature="6789:7394" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7156:7390" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7231:7279" ph="/* Log format: ... */" />
+            <marker date="1532321359608" expanded="true" signature="7401:7481" ph="/// Call git and get the output from git status ... " />
+            <marker date="1532321359608" expanded="true" signature="7512:8053" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7909:8049" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="8070:8257" ph="/// Generic method to call git. ... " />
+            <marker date="1532321359608" expanded="true" signature="8320:9117" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="8668:8882" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
         </state>
       </provider>
@@ -623,57 +619,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <marker date="1532296235421" expanded="true" signature="20:9140" ph="{...}" />
-            <marker date="1532296235421" expanded="false" signature="30:199" ph="..." />
-            <marker date="1532296235421" expanded="true" signature="244:9138" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
-            <marker date="1532296235421" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
-            <marker date="1532296235421" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
-            <marker date="1532296235421" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
-            <marker date="1532296235421" expanded="true" signature="1134:1299" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
-            <marker date="1532296235421" expanded="true" signature="1380:1621" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1466:1617" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
-            <marker date="1532296235421" expanded="true" signature="1724:1771" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1773:5231" ph="Display Methods" />
-            <marker date="1532296235421" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
-            <marker date="1532296235421" expanded="true" signature="1885:2879" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2134:2678" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2209:2664" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2546:2595" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2695:2780" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
-            <marker date="1532296235421" expanded="true" signature="2977:3830" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3266:3687" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3323:3682" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3695:3755" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
-            <marker date="1532296235421" expanded="true" signature="3944:4216" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4064:4137" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4222:4281" ph="/// Display the commit tab ... " />
-            <marker date="1532296235421" expanded="true" signature="4311:4839" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4643:4723" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4756:4801" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4845:4915" ph="/// Generic method to display a label ... " />
-            <marker date="1532296235421" expanded="true" signature="4956:5220" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5243:5500" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
-            <marker date="1532296235421" expanded="true" signature="5551:5937" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5651:5767" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5784:5900" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5947:6250" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
-            <marker date="1532296235421" expanded="true" signature="6318:6624" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="6626:8079" ph="Parsing methods" />
-            <marker date="1532296235421" expanded="true" signature="6652:6764" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
-            <marker date="1532296235421" expanded="true" signature="6798:7406" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7168:7402" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7243:7291" ph="/* Log format: ... */" />
-            <marker date="1532296235421" expanded="true" signature="7413:7493" ph="/// Call git and get the output from git status ... " />
-            <marker date="1532296235421" expanded="true" signature="7524:8068" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7924:8064" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="8085:8272" ph="/// Generic method to call git. ... " />
-            <marker date="1532296235421" expanded="true" signature="8338:9135" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="8686:8900" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532321359608" expanded="true" signature="20:9122" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="30:199" ph="..." />
+            <marker date="1532321359608" expanded="true" signature="244:9120" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532321359608" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532321359608" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532321359608" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
+            <marker date="1532321359608" expanded="true" signature="1134:1299" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
+            <marker date="1532321359608" expanded="true" signature="1380:1621" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1466:1617" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
+            <marker date="1532321359608" expanded="true" signature="1724:1771" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1773:5222" ph="Display Methods" />
+            <marker date="1532321359608" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
+            <marker date="1532321359608" expanded="true" signature="1885:2879" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2134:2678" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2209:2664" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2546:2595" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2695:2780" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
+            <marker date="1532321359608" expanded="true" signature="2977:3830" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3266:3687" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3323:3682" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3695:3755" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
+            <marker date="1532321359608" expanded="true" signature="3944:4213" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4064:4134" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4219:4278" ph="/// Display the commit tab ... " />
+            <marker date="1532321359608" expanded="true" signature="4308:4830" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4640:4717" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4750:4792" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4836:4906" ph="/// Generic method to display a label ... " />
+            <marker date="1532321359608" expanded="true" signature="4947:5211" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5234:5491" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532321359608" expanded="true" signature="5542:5928" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5642:5758" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5775:5891" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5938:6241" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532321359608" expanded="true" signature="6309:6615" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="6617:8064" ph="Parsing methods" />
+            <marker date="1532321359608" expanded="true" signature="6643:6755" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
+            <marker date="1532321359608" expanded="true" signature="6789:7394" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7156:7390" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7231:7279" ph="/* Log format: ... */" />
+            <marker date="1532321359608" expanded="true" signature="7401:7481" ph="/// Call git and get the output from git status ... " />
+            <marker date="1532321359608" expanded="true" signature="7512:8053" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7909:8049" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="8070:8257" ph="/// Generic method to call git. ... " />
+            <marker date="1532321359608" expanded="true" signature="8320:9117" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="8668:8882" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
         </state>
       </provider>
@@ -682,57 +678,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <marker date="1532296235421" expanded="true" signature="20:9140" ph="{...}" />
-            <marker date="1532296235421" expanded="false" signature="30:199" ph="..." />
-            <marker date="1532296235421" expanded="true" signature="244:9138" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
-            <marker date="1532296235421" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
-            <marker date="1532296235421" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
-            <marker date="1532296235421" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
-            <marker date="1532296235421" expanded="true" signature="1134:1299" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
-            <marker date="1532296235421" expanded="true" signature="1380:1621" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1466:1617" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
-            <marker date="1532296235421" expanded="true" signature="1724:1771" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1773:5231" ph="Display Methods" />
-            <marker date="1532296235421" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
-            <marker date="1532296235421" expanded="true" signature="1885:2879" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2134:2678" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2209:2664" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2546:2595" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2695:2780" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
-            <marker date="1532296235421" expanded="true" signature="2977:3830" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3266:3687" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3323:3682" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3695:3755" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
-            <marker date="1532296235421" expanded="true" signature="3944:4216" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4064:4137" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4222:4281" ph="/// Display the commit tab ... " />
-            <marker date="1532296235421" expanded="true" signature="4311:4839" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4643:4723" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4756:4801" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4845:4915" ph="/// Generic method to display a label ... " />
-            <marker date="1532296235421" expanded="true" signature="4956:5220" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5243:5500" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
-            <marker date="1532296235421" expanded="true" signature="5551:5937" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5651:5767" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5784:5900" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5947:6250" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
-            <marker date="1532296235421" expanded="true" signature="6318:6624" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="6626:8079" ph="Parsing methods" />
-            <marker date="1532296235421" expanded="true" signature="6652:6764" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
-            <marker date="1532296235421" expanded="true" signature="6798:7406" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7168:7402" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7243:7291" ph="/* Log format: ... */" />
-            <marker date="1532296235421" expanded="true" signature="7413:7493" ph="/// Call git and get the output from git status ... " />
-            <marker date="1532296235421" expanded="true" signature="7524:8068" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7924:8064" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="8085:8272" ph="/// Generic method to call git. ... " />
-            <marker date="1532296235421" expanded="true" signature="8338:9135" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="8686:8900" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532321359608" expanded="true" signature="20:9122" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="30:199" ph="..." />
+            <marker date="1532321359608" expanded="true" signature="244:9120" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532321359608" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532321359608" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532321359608" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
+            <marker date="1532321359608" expanded="true" signature="1134:1299" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
+            <marker date="1532321359608" expanded="true" signature="1380:1621" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1466:1617" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
+            <marker date="1532321359608" expanded="true" signature="1724:1771" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1773:5222" ph="Display Methods" />
+            <marker date="1532321359608" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
+            <marker date="1532321359608" expanded="true" signature="1885:2879" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2134:2678" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2209:2664" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2546:2595" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2695:2780" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
+            <marker date="1532321359608" expanded="true" signature="2977:3830" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3266:3687" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3323:3682" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3695:3755" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
+            <marker date="1532321359608" expanded="true" signature="3944:4213" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4064:4134" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4219:4278" ph="/// Display the commit tab ... " />
+            <marker date="1532321359608" expanded="true" signature="4308:4830" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4640:4717" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4750:4792" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4836:4906" ph="/// Generic method to display a label ... " />
+            <marker date="1532321359608" expanded="true" signature="4947:5211" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5234:5491" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532321359608" expanded="true" signature="5542:5928" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5642:5758" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5775:5891" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5938:6241" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532321359608" expanded="true" signature="6309:6615" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="6617:8064" ph="Parsing methods" />
+            <marker date="1532321359608" expanded="true" signature="6643:6755" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
+            <marker date="1532321359608" expanded="true" signature="6789:7394" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7156:7390" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7231:7279" ph="/* Log format: ... */" />
+            <marker date="1532321359608" expanded="true" signature="7401:7481" ph="/// Call git and get the output from git status ... " />
+            <marker date="1532321359608" expanded="true" signature="7512:8053" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7909:8049" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="8070:8257" ph="/// Generic method to call git. ... " />
+            <marker date="1532321359608" expanded="true" signature="8320:9117" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="8668:8882" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
         </state>
       </provider>
@@ -775,60 +771,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/UnityGit/Scripts/Editor/UnityGitWindow.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-787">
-          <caret line="201" column="45" selection-start-line="201" selection-start-column="45" selection-end-line="201" selection-end-column="45" />
+        <state relative-caret-position="2048">
+          <caret line="170" column="24" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
           <folding>
-            <marker date="1532296235421" expanded="true" signature="20:9140" ph="{...}" />
-            <marker date="1532296235421" expanded="false" signature="30:199" ph="..." />
-            <marker date="1532296235421" expanded="true" signature="244:9138" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
-            <marker date="1532296235421" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
-            <marker date="1532296235421" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
-            <marker date="1532296235421" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
-            <marker date="1532296235421" expanded="true" signature="1134:1299" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
-            <marker date="1532296235421" expanded="true" signature="1380:1621" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1466:1617" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
-            <marker date="1532296235421" expanded="true" signature="1724:1771" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="1773:5231" ph="Display Methods" />
-            <marker date="1532296235421" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
-            <marker date="1532296235421" expanded="true" signature="1885:2879" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2134:2678" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2209:2664" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2546:2595" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2695:2780" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
-            <marker date="1532296235421" expanded="true" signature="2977:3830" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3266:3687" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3323:3682" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3695:3755" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
-            <marker date="1532296235421" expanded="true" signature="3944:4216" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4064:4137" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4222:4281" ph="/// Display the commit tab ... " />
-            <marker date="1532296235421" expanded="true" signature="4311:4839" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4643:4723" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4756:4801" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="4845:4915" ph="/// Generic method to display a label ... " />
-            <marker date="1532296235421" expanded="true" signature="4956:5220" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5243:5500" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
-            <marker date="1532296235421" expanded="true" signature="5551:5937" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5651:5767" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5784:5900" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="5947:6250" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
-            <marker date="1532296235421" expanded="true" signature="6318:6624" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="6626:8079" ph="Parsing methods" />
-            <marker date="1532296235421" expanded="true" signature="6652:6764" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
-            <marker date="1532296235421" expanded="true" signature="6798:7406" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7168:7402" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7243:7291" ph="/* Log format: ... */" />
-            <marker date="1532296235421" expanded="true" signature="7413:7493" ph="/// Call git and get the output from git status ... " />
-            <marker date="1532296235421" expanded="true" signature="7524:8068" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="7924:8064" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="8085:8272" ph="/// Generic method to call git. ... " />
-            <marker date="1532296235421" expanded="true" signature="8338:9135" ph="{...}" />
-            <marker date="1532296235421" expanded="true" signature="8686:8900" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
+            <marker date="1532321359608" expanded="true" signature="20:9122" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="30:199" ph="..." />
+            <marker date="1532321359608" expanded="true" signature="244:9120" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="250:324" ph="/// The titles of the tabs in the window. ... " />
+            <marker date="1532321359608" expanded="true" signature="582:669" ph="/// The current position of the scroll bar in the GUI. ... " />
+            <marker date="1532321359608" expanded="true" signature="755:833" ph="/// The currently selected tab in the window. ... " />
+            <marker date="1532321359608" expanded="true" signature="921:1058" ph="/// Creates the window ... " />
+            <marker date="1532321359608" expanded="true" signature="1134:1299" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1303:1358" ph="/// Updates the window ... " />
+            <marker date="1532321359608" expanded="true" signature="1380:1621" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1466:1617" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1625:1702" ph="/// Call the parse to initialize everything. ... " />
+            <marker date="1532321359608" expanded="true" signature="1724:1771" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="1773:5222" ph="Display Methods" />
+            <marker date="1532321359608" expanded="true" signature="1799:1855" ph="/// Display the git log ... " />
+            <marker date="1532321359608" expanded="true" signature="1885:2879" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2134:2678" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2209:2664" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2546:2595" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2695:2780" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="2885:2944" ph="/// Dispaly the status tab ... " />
+            <marker date="1532321359608" expanded="true" signature="2977:3830" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3266:3687" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3323:3682" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3695:3755" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="3836:3908" ph="/// Display the head for the status tab ... " />
+            <marker date="1532321359608" expanded="true" signature="3944:4213" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4064:4134" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4219:4278" ph="/// Display the commit tab ... " />
+            <marker date="1532321359608" expanded="true" signature="4308:4830" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4640:4717" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4750:4792" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="4836:4906" ph="/// Generic method to display a label ... " />
+            <marker date="1532321359608" expanded="true" signature="4947:5211" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5234:5491" ph="/// Creates the alternating background color based upon if the Unity Editor is the free (light) skin or the Pro ( ... " />
+            <marker date="1532321359608" expanded="true" signature="5542:5928" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5642:5758" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5775:5891" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="5938:6241" ph="/// From here: http://forum.unity3d.com/threads/changing-the-background-color-for-beginhorizontal.66015/ ... " />
+            <marker date="1532321359608" expanded="true" signature="6309:6615" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="6617:8064" ph="Parsing methods" />
+            <marker date="1532321359608" expanded="true" signature="6643:6755" ph="/// Call git and get the output from git log, split it to be easier to display. ... " />
+            <marker date="1532321359608" expanded="true" signature="6789:7394" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7156:7390" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7231:7279" ph="/* Log format: ... */" />
+            <marker date="1532321359608" expanded="true" signature="7401:7481" ph="/// Call git and get the output from git status ... " />
+            <marker date="1532321359608" expanded="true" signature="7512:8053" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="7909:8049" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="8070:8257" ph="/// Generic method to call git. ... " />
+            <marker date="1532321359608" expanded="true" signature="8320:9117" ph="{...}" />
+            <marker date="1532321359608" expanded="true" signature="8668:8882" ph="/* http://stackoverflow.com/questions/16803748/how-to-decode-cmd-output-correctly ... */" />
           </folding>
         </state>
       </provider>

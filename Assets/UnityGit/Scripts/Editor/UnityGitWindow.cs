@@ -168,7 +168,7 @@ namespace UnityGit
 			{
 				if (GUILayout.Button("Add All"))
 				{
-					CallGitProcess("git", "add -A");
+					CallProcess("git", "add -A");
 					ParseGitStatus();
 				}
 			}
@@ -189,11 +189,11 @@ namespace UnityGit
 			EditorGUILayout.EndHorizontal();
 			if (GUILayout.Button("Commit"))
 			{
-				CallGitProcess("git", "commit -m" + "\"" + commitMessage + "\"");
+				CallProcess("git", "commit -m" + "\"" + commitMessage + "\"");
 			}
 			if (GUILayout.Button("Push"))
 			{
-				CallGitProcess("git", "push");
+				CallProcess("git", "push");
 			}
 			EditorGUILayout.EndVertical();
 		}
@@ -259,7 +259,7 @@ namespace UnityGit
 		/// </summary>
         public void ParseGitLog()
 		{
-			string gitLogOutput = CallGitProcess("git", "log --pretty=format:" + "\"" + "%h%x09%an%x09%ad%x09%s" + "\"" + "--date=short");
+			string gitLogOutput = CallProcess("git", "log --pretty=format:" + "\"" + "%h%x09%an%x09%ad%x09%s" + "\"" + "--date=short");
 
 			gitLogOutput = gitLogOutput.Replace("--date=short", "");
 			List<string> parsedOutput = gitLogOutput.Split(System.Environment.NewLine.ToCharArray()).ToList();
@@ -286,7 +286,7 @@ namespace UnityGit
 		/// </summary>
 		public void ParseGitStatus()
 		{
-			string gitOutput = CallGitProcess("git", "status --short");
+			string gitOutput = CallProcess("git", "status --short");
 			
 			// Split on newlines
 			List<string> splitOutput =  gitOutput.Split(System.Environment.NewLine.ToCharArray()).ToList();
@@ -313,7 +313,7 @@ namespace UnityGit
 		/// <returns>The output from git.</returns>
 		/// <param name="fileName"></param>
 		/// <param name="arguments"></param>
-		public string CallGitProcess(string fileName, string arguments)
+		public string CallProcess(string fileName, string arguments)
 		{
 			Process gitProcess = new Process();
 			gitProcess.StartInfo.FileName = fileName;
